@@ -1,27 +1,18 @@
-<h1 align="center">ΠΑΙΔΕΙΑ · Paideia <sub>(Codex edition)</sub></h1>
+<h1 align="center">ΠΑΙΔΕΙΑ · Paideia <sub>for OpenAI Codex</sub></h1>
 
 <p align="center">
   <strong>Your course. Your patterns. Your errors. Your cheatsheet.</strong><br>
-  <em>An OpenAI Codex CLI plugin that turns your own materials into a permanent, editable, per-course study graph — every artifact shaped by you, not by a generic syllabus.</em>
+  <em>A Codex plugin that turns your own materials into a permanent, editable, per-course study graph — every artifact shaped by you, not by a generic syllabus.</em>
 </p>
 
 <p align="center">
-  <a href="https://github.com/OPTIMETA/PAIDEIA-Alt"><img height="30" src="https://img.shields.io/badge/Exam_Radar-OPTIMETA_Alt_plugin-333333?style=for-the-badge&labelColor=000000&color=333333" alt="Exam Radar — OPTIMETA Alt plugin"></a>
-</p>
-
-<p align="center">
-  <sub><em>Capture lectures with <a href="https://github.com/OPTIMETA/PAIDEIA-Alt"><strong>Exam Radar</strong></a> — OPTIMETA's Alt plugin — and study them with Paideia. Install it in Alt and run the two together: the whole arc, from sitting in the lecture to studying for the exam, lands in one workflow. Pipe a roadmap straight in with <code>$paideia-alt</code>.</em></sub>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/license/OPTIMETA/PAIDEIA-codex?style=flat-square&labelColor=000000&color=333333&cacheSeconds=3600" alt="License">
+  <img src="https://img.shields.io/badge/license-MIT-333333?style=flat-square&labelColor=000000&color=333333&cacheSeconds=3600" alt="License">
   <img src="https://img.shields.io/github/stars/OPTIMETA/PAIDEIA-codex?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=333333&cacheSeconds=3600" alt="GitHub stars">
   <img src="https://img.shields.io/github/last-commit/OPTIMETA/PAIDEIA-codex?style=flat-square&labelColor=000000&color=333333&cacheSeconds=3600" alt="Last commit">
   <img src="https://img.shields.io/github/languages/top/OPTIMETA/PAIDEIA-codex?style=flat-square&labelColor=000000&color=333333&cacheSeconds=3600" alt="Top language">
   &nbsp;
   <img src="https://img.shields.io/badge/OpenAI%20Codex-000000?style=flat-square&logo=openai&logoColor=white&labelColor=000000&cacheSeconds=3600" alt="OpenAI Codex">
   <img src="https://img.shields.io/badge/Plugin-000000?style=flat-square&labelColor=000000&color=000000&cacheSeconds=3600" alt="Plugin">
-  <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&labelColor=000000&color=000000&cacheSeconds=3600" alt="MCP">
   <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white&labelColor=000000&cacheSeconds=3600" alt="Markdown">
   <img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white&labelColor=000000&cacheSeconds=3600" alt="Python">
   <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white&labelColor=000000&cacheSeconds=3600" alt="Ollama">
@@ -33,20 +24,35 @@
 </p>
 
 <p align="center">
+  <a href="https://news.hada.io/topic?id=29865"><img height="34" src="https://img.shields.io/badge/GeekNews-%231%20on%2026.05.26-333333?style=for-the-badge&labelColor=000000&color=333333" alt="GeekNews #1 on 26.05.26"></a><a href="https://news.hada.io/weekly/202622"><img height="34" src="https://img.shields.io/badge/GeekNews%20Weekly-%23360-333333?style=for-the-badge&labelColor=000000&color=333333" alt="GeekNews Weekly #360"></a><br>
+  <a href="https://www.producthunt.com/products/paideia"><img height="34" src="https://img.shields.io/badge/Product%20Hunt-Launched-333333?style=for-the-badge&logo=producthunt&logoColor=white&labelColor=000000&color=333333" alt="Product Hunt launch"></a><a href="https://www.taewoopark.com/projects/paideia"><img height="34" src="https://img.shields.io/badge/Interactive%20Demo-Live-333333?style=for-the-badge&labelColor=000000&color=333333" alt="Interactive demo at taewoopark.com"></a>
+  <br><sub>Original PAIDEIA coverage and interactive demo.</sub>
+</p>
+
+<p align="center">
   <a href="./README.ko.md">한국어 README</a>
   &nbsp;·&nbsp;
   <a href="https://taewoopark.com"><strong>taewoopark.com</strong> — author site</a>
 </p>
 
-<p align="center">
-  <sub>Claude Code edition of the same plugin: <a href="https://github.com/OPTIMETA/PAIDEIA">OPTIMETA/PAIDEIA</a></sub>
-</p>
+<p align="center"><sub><strong>The PAIDEIA family — one study engine, every agentic runtime</strong></sub></p>
 
----
+| Platform | Repository | What it is |
+|:--:|:--|:--|
+| <a href="https://github.com/OPTIMETA/PAIDEIA"><img src="https://cdn.simpleicons.org/claude/D97757" height="24" alt="Claude"></a> | **[PAIDEIA](https://github.com/OPTIMETA/PAIDEIA)** | The original — a **Claude Code** plugin. |
+| <a href="https://github.com/OPTIMETA/PAIDEIA-codex"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg" height="24" alt="OpenAI Codex"></a> | **[PAIDEIA-codex](https://github.com/OPTIMETA/PAIDEIA-codex)** | **OpenAI Codex** skills + bundled MCP server. |
+| <a href="https://github.com/OPTIMETA/PAIDEIA-opencode"><img src="https://cdn.simpleicons.org/opencode/888888" height="24" alt="opencode"></a> | **[PAIDEIA-opencode](https://github.com/OPTIMETA/PAIDEIA-opencode)** | Command-line harness driving **opencode**. |
+| <a href="https://github.com/OPTIMETA/PAIDEIA-Hermes"><img src="https://github.com/hermes-agent.png" height="24" alt="hermes-agent"></a> | **[PAIDEIA-Hermes](https://github.com/OPTIMETA/PAIDEIA-Hermes)** | **Hermes Agent** plugin: CLI commands + gateway routing. |
+| <a href="https://github.com/OPTIMETA/PAIDEIA-mcp"><img src="https://cdn.simpleicons.org/modelcontextprotocol/888888" height="24" alt="MCP"></a> | **[PAIDEIA-mcp](https://github.com/OPTIMETA/PAIDEIA-mcp)** | Standalone local **MCP** server — drive PAIDEIA from Alt local models. |
+| <a href="https://github.com/OPTIMETA/PAIDEIA-Alt"><img src="https://github.com/altalt-org.png" height="24" alt="Alt · altalt.org"></a> | **[PAIDEIA-Alt](https://github.com/OPTIMETA/PAIDEIA-Alt)** | **Exam Radar** — the Alt lecture-capture plugin ([altalt.org](https://altalt.org)). |
 
 <p align="center">
   <em>Generic study tools teach you the average syllabus. Paideia teaches you <strong>your</strong> syllabus —<br>
   from your professor's notes, your HW emphases, your handwriting, your errors. Every artifact is a markdown file you can edit.</em>
+</p>
+
+<p align="center">
+  <img src="./docs/media/desktop-summary.png" alt="OpenAI Codex PAIDEIA running on macOS" width="100%">
 </p>
 
 ---
@@ -63,118 +69,86 @@ This plugin implements that cycle for the specific, bounded problem of **exam pr
      └────────────────── feedback loop ───────────────────────┘
 ```
 
-Every stage produces a markdown artifact that lives in your course folder forever. Nothing is ephemeral. Nothing is hidden behind an API. Nothing stops working when the next funding winter hits.
-
----
-
-## Why a Codex edition
-
-> **2026-04-21 note.** On April 21, 2026, scattered reports suggested Anthropic had revoked Claude Code access for the Pro tier. Anthropic later clarified that this was only a limited test rolled out to a subset of new users — not a wholesale restriction. The Codex edition was built and shipped that same day amid the uncertainty, and it stands on its own regardless: the port is a CLI-agnostic alternative that lets you run PAIDEIA under whichever agentic CLI you already pay for. Both editions are maintained; pick whichever one fits your subscription.
-
-PAIDEIA was born as a Claude Code plugin. The heavy lifting — parallel vision ingest, strategy grading, pattern extraction from *your* solutions — didn't depend on Claude specifically; it depended on *any* agentic CLI with skills, subagents, plugins, and a workable vision path. OpenAI Codex CLI grew those affordances in 2026 (skills, subagents, MCP, plugins, `AGENTS.md`), so the port was a matter of re-homing the logic onto Codex's primitives, not rewriting the study graph.
-
-The study graph on disk is **byte-for-byte the same**. `course-index/patterns.md`, `errors/log.md`, `weakmap/weakmap_<ts>.md`, `cheatsheet/final.md` — all the artifacts the Claude edition writes, this edition also writes, in the same format. Fork a course folder from the Claude edition into this one (or vice versa) and the new runner picks up without friction.
-
-### What moved
-
-| Concept | Claude Code edition | Codex edition |
-|---|---|---|
-| Verb syntax | `/paideia:ingest` | `$paideia-ingest` |
-| Project context file | `CLAUDE.md` | `AGENTS.md` |
-| Plugin-root variable | `${CLAUDE_PLUGIN_ROOT}` | `${CODEX_PLUGIN_ROOT}` |
-| Heavy pipeline host | Per-PDF `general-purpose` subagents | Bundled `paideia-mcp` stdio MCP server |
-| Default OCR | Claude's native vision (no install) | Codex CLI's native vision (no install; no extra API key — uses the ChatGPT Plus/Pro/Business subscription Codex CLI already requires) |
-| Local OCR | `ollama` + `qwen3-vl:8b` | same (`qwen3-vl`) |
-| Tesseract floor | yes | yes |
-| Statusline widget | `paideia · COURSE · D-N · phase · P<k>` | *(not ported — Codex has no persistent statusline slot; phase is available via `$paideia-phase`)* |
-
-Everything else — directory layout, pattern extraction logic, strategy-grading, HW-density exam tiering, the append-only `weakmap/` history, the error-driven cheatsheet — is the same.
+The study stages save Markdown artifacts in your course folder. You can keep reading, editing, and versioning those files independently of the agent. Generating new artifacts still requires the runtime, tools, and model used by the chosen stage.
 
 ---
 
 ## What generic study tools can't do
 
-Most study tools can't personalize to *your* course, *your* professor, or *your* mistakes — because the product they sell is a generic curriculum.
+Paideia starts with *your* course, *your* professor's assignments, and *your* mistakes. The input is the folder you bring: lecture notes, textbook chapters, homework, solutions, and scanned attempts.
 
-- **Coursera, edX, Khan Academy** — fixed curriculum; no idea what your professor actually emphasizes.
-- **Quizlet, Anki, Brainscape** — you manually curate every card; nothing derives patterns from your own solution manuals.
-- **Chegg, Course Hero** — generic solution manuals; not organized around your course's recurring idioms.
-- **Brilliant, Duolingo Max, Khanmigo** — generic exercises; no knowledge of what you got wrong on HW2 last month.
-- **ChatGPT Study Mode, Gemini "Deep Study", NotebookLM** — no persistent per-course state. Every new session starts cold, and last week's mistakes don't shape this week's drill unless you re-upload and re-explain.
+Generic curricula and manually curated flashcards can be useful companions. Paideia adds a specific workflow: extract recurring moves from your solutions, rank practice by homework coverage, and feed recorded errors into the next drill. The table describes that workflow, rather than the features or subscription terms of every learning service.
 
-None of them *form* understanding around the specific material in front of you. They each give every student the same answer. Paideia does the opposite: every artifact is derived from *your* folder — lecture notes, textbook chapter, HW, solutions, handwritten attempts — and accumulates permanently in plain markdown you can edit.
-
-| Axis | Paideia | Typical edu-SaaS / LLM chat |
+| Axis | Paideia | A generic course or an unstructured chat |
 |-----|---------|------------------------------|
-| Solution patterns (`P1..Pk`) | Extracted from *your course's* own solutions, citing your own files | Generic textbook list, or none |
-| Drill priority | Weighted by *your professor's* HW emphasis (HW density = exam tier) | Fixed curriculum, or your own guesswork |
-| Cheatsheet | Built from *your* `errors/log.md` — whatever you actually got wrong | Boilerplate from the syllabus |
-| Per-course state across sessions | Permanent markdown + YAML, grows as you work | Conversation resets; paid tier for history |
-| Editing an artifact you disagree with | Open the `.md` in any editor, save | Read-only UI |
-| Carrying last semester's prep into next semester | Fork the course folder, edit deltas | Start over |
-| Version history of your own understanding | `git log` / `git diff` any artifact | Not surfaced |
-| Where the artifacts live | Your disk, as text | Remote DB, exportable only with paid tier |
+| Solution patterns (`P1..Pk`) | Extracted from your course's solutions, with source citations | Requires course-specific material and instructions |
+| Drill priority | Weighted by your professor's HW emphasis | Must be selected and maintained separately |
+| Cheatsheet | Errors shape the traps section; the course index supplies references | Must be assembled and revised separately |
+| Per-course state across sessions | Markdown + metadata files in the course folder | Depends on the service and how context is supplied |
+| Editing an artifact you disagree with | Open the `.md` in any editor and save | Depends on the tool's editing and export support |
+| Carrying prep into another semester | Copy the course folder and revise the changed material | Requires moving the relevant material and history |
+| Version history of your understanding | `git log` / `git diff`, when you commit the files | Depends on the tool's versioning support |
+| Where the artifacts live | Your disk, as text | Depends on the service |
 
-The plugin uses Codex CLI (which calls paid OpenAI APIs) to do the heavy lifting, but everything it produces lives on your disk as plain markdown. If you later switch to a different model runner, or pause your OpenAI subscription, the course-index, patterns, error log, weakmaps, and cheatsheets are all still yours to open, read, edit, and diff. The scaffold is the plugin; the study graph is yours.
+The runner does the model work; the study graph remains yours to open, read, edit, and diff. Changing providers or pausing a subscription does not remove the files already produced.
 
-By default, OCR uses Codex CLI's **built-in vision** — the same vision ChatGPT Plus/Pro/Business/Edu/Enterprise subscribers already pay for via their subscription. The plugin just rasterizes each PDF page to PNG under `.paideia-cache/` and hands Codex the image paths to read directly. No separate `OPENAI_API_KEY`, no additional API billing. If you'd rather the handwritten PDFs never leave the machine, `ollama pull qwen3-vl:8b` is a one-time ~6 GB download that flips every subsequent OCR pass to local Qwen3-VL inference. Either way, everything downstream — patterns, coverage, weakmaps, cheatsheets, the error log — is plain markdown on your disk.
+Default answer OCR is `codex-native`: page images are read through the runner's vision path. For local answer OCR, install Ollama and `qwen3-vl:8b`, then explicitly select `OCR_ENGINE: qwen3-vl` in `.course-meta` or pass `--ocr=qwen3-vl` to grade. Downloading the model alone does not change the engine. `tesseract` is the other local option. Local OCR keeps that transcription step local; subsequent analysis and grading still use the configured model and may send it the transcribed text.
 
 ---
 
 ## The load-bearing principle: HW density = exam probability
 
-Most "study smart" advice tells you to hunt your blind spots. That is **backwards**. The professor has *already told you* where the exam points live — by assigning homework. Sections with heavy HW coverage are 🔥🔥 Exam-primary. Sections with zero HW are ⚪ Low-risk, not "hidden traps". The professor's omission is the strongest possible signal that the topic is off the exam.
+Homework is Paideia's primary signal for allocating exam-prep time. Sections with more assigned problems get more practice; sections without homework remain reference material by default. **These are study-priority tiers, not measured probabilities or a guarantee of what the professor will test.**
 
-Paideia's ranking is explicit about this, and every drill skill honors it by default:
-
-| Tier | HW count on section | Treatment | Share of mock-exam points |
-|------|---------------------|-----------|---------------------------|
+| Tier | HW count on section | Treatment | Target share of mock-exam points |
+|------|---------------------|-----------|---------------------------------|
 | 🔥🔥 Exam-primary | 3+ | Drill hardest | ≥70% |
 | 🔥 Exam-likely | 2 | Drill next | ~25% |
 | 🟡 Exam-possible | 1 | Warm-pass review | ≤5% |
-| ⚪ Low-risk | 0 | Reference only | 0 |
+| ⚪ Low-risk | 0 | Reference only | 0 by default |
 
-`$paideia-quiz all`, `$paideia-mock`, `$paideia-hwmap hot` all weight output by this tiering. If you insist on drilling a ⚪ section, the plugin complies once and warns you that exam probability is low — your limited time is worth more than an imagined gotcha.
+`$paideia-quiz all`, `$paideia-mock 90`, and `$paideia-hwmap hot` use this ranking. These allocations are instructions to the generating agent; inspect the resulting mock before relying on its exact distribution. Explicit requests and imported Exam Radar signals can inform what you choose to review.
 
 ---
 
 ## The formation cycle, stage by stage
 
+<p align="center"><sub><em>The Codex desktop app displays the generated Markdown artifacts alongside the conversation.</em></sub></p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/media/desktop-summary.png" alt="summary.md">
+      <br><sub><b><code>summary.md</code></b> — $paideia-analyze</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/media/desktop-pattern.png" alt="patterns.md">
+      <br><sub><b><code>patterns.md</code></b> — $paideia-analyze</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/media/desktop-coverage.png" alt="coverage.md">
+      <br><sub><b><code>coverage.md</code></b> — $paideia-analyze</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/media/desktop-derivation.png" alt="derivations/*.md">
+      <br><sub><b><code>derivations/*.md</code></b> — $paideia-derive</sub>
+    </td>
+  </tr>
+</table>
+
+Type `$paideia-…` in a Codex conversation. The plugin supplies **16 skills and four MCP tools**. The MCP server handles file inventory, PDF rendering, local OCR, baseline indexes, and phase detection; Codex performs native-vision transcription and the course-specific analysis, drills, and grading. `$paideia-phase` is the on-demand progress display. This package does not install PAIDEIA's Claude statusline or session-start hook.
+
 | Stage | What it does | Verbs | Produces |
 |-------|-------------|-------|----------|
 | **Encounter** | Read the professor's signal | `$paideia-ingest` | `converted/**/*.md` — every lecture, textbook chapter, HW, solution, as clean markdown |
 | **Structure** | Extract the grammar of the course | `$paideia-analyze` | `course-index/{summary,patterns,coverage}.md` — topic tree, recurring solution patterns (P1..Pk), HW-density exam-tier ranking |
-| **Practice** | Active recall weighted by what the professor actually tests | `$paideia-quiz`, `$paideia-twin`, `$paideia-blind`, `$paideia-chain`, `$paideia-mock` | `quizzes/`, `twins/`, `chain/`, `mock/` — problems you solve on paper |
+| **Practice** | Active recall weighted by assigned homework | `$paideia-quiz`, `$paideia-twin`, `$paideia-blind`, `$paideia-chain`, `$paideia-mock` | `quizzes/`, `twins/`, `chain/`, `mock/` — problems you solve on paper |
 | **Reflection** | Your hand-written work becomes a grade | `$paideia-grade` | `answers/converted/<name>.md` + `errors/log.md` — OCR via Codex's bundled vision (default), Qwen3-VL, or Tesseract; then strategy-based grading |
 | **Diagnosis** | Errors compressed into a priority-ranked weakness report | `$paideia-weakmap` | `weakmap/weakmap_<ts>.md` — append-only history |
 | **Distillation** | One page, error-driven, printable | `$paideia-cheatsheet`, `$paideia-derive`, `$paideia-pattern` | `cheatsheet/final.md`, `derivations/<slug>.md` — reference only what you actually need |
 
-Supporting: `$paideia-hwmap` surfaces HW-density exam-probability, `$paideia-init-course` bootstraps a fresh course folder, `$paideia-phase` reports which stage of the cycle the folder is in.
-
-<p align="center"><sub><em>The same plugin, opened from inside the Codex desktop app — analyze + derive artifacts render side by side as the agent emits them:</em></sub></p>
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="docs/media/desktop-summary.png" alt="summary.md generated by $paideia-analyze">
-      <br><sub><b><code>summary.md</code></b> — topic tree from <code>$paideia-analyze</code></sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="docs/media/desktop-pattern.png" alt="patterns.md generated by $paideia-analyze">
-      <br><sub><b><code>patterns.md</code></b> — solution-pattern cards from <code>$paideia-analyze</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="docs/media/desktop-coverage.png" alt="coverage.md generated by $paideia-analyze">
-      <br><sub><b><code>coverage.md</code></b> — section → exam-probability map from <code>$paideia-analyze</code></sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="docs/media/desktop-derivation.png" alt="reference derivation written via $paideia-derive">
-      <br><sub><b><code>derivations/*.md</code></b> — clean reference derivation from <code>$paideia-derive</code></sub>
-    </td>
-  </tr>
-</table>
+Supporting: `$paideia-hwmap` shows homework-based study priorities, `$paideia-init-course` bootstraps a fresh course folder, `$paideia-phase` reports which stage of the cycle the folder is in.
 
 ---
 
@@ -182,78 +156,48 @@ Supporting: `$paideia-hwmap` surfaces HW-density exam-probability, `$paideia-ini
 
 ### Prerequisites
 
-**Required**
+- [Codex](https://github.com/openai/codex), with `codex` on `PATH` and a working sign-in. The plugin reuses the session's model and vision access; it does not need a separate OCR API key. Normal account usage limits and billing still apply.
+- Python **3.10+** and a Unix-style shell (`bash` / `zsh`). On Windows, use [WSL2](https://learn.microsoft.com/windows/wsl/install) for the shell workflow.
+- PDF rendering: **macOS** `brew install poppler`; **Debian/Ubuntu** `apt-get install poppler-utils`.
+- For Tesseract OCR or fallback: install `tesseract tesseract-lang` with Homebrew, or `tesseract-ocr tesseract-ocr-eng tesseract-ocr-kor` with apt.
+- For local Qwen OCR: install [Ollama](https://ollama.com), run its local server, and `ollama pull qwen3-vl:8b` (about 6 GB). Select `qwen3-vl` explicitly during bootstrap or grading.
 
-- [OpenAI Codex CLI](https://github.com/openai/codex) (`codex` on `PATH`), signed in with a ChatGPT Plus / Pro / Business / Edu / Enterprise account (the default OCR engine reads page images via Codex CLI's bundled vision — no separate `OPENAI_API_KEY` needed)
-- Python 3.10+ (the bundled MCP server is written in Python)
-- A Unix-style shell (`bash` / `zsh`). The bootstrap skill uses heredocs, `mkdir -p`, `mktemp`, and subshell backgrounding — native Windows `cmd` / PowerShell isn't currently supported.
-- **macOS**: `brew install poppler` (plus `tesseract tesseract-lang` only if you plan to use the `tesseract` engine)
-- **Linux (Debian/Ubuntu)**: `apt-get install poppler-utils` (plus `tesseract-ocr tesseract-ocr-eng tesseract-ocr-kor` only for the `tesseract` engine)
-- **Windows**: use [WSL2](https://learn.microsoft.com/windows/wsl/install), then follow the Linux path inside the WSL shell.
-
-**Optional — only if you want the `--ocr=qwen3-vl` mode (every page image stays on your machine)**
-
-- `ollama` + the `qwen3-vl:8b` model (~6 GB). macOS: `brew install ollama`. Linux: see the [ollama install script](https://ollama.com/install.sh). Then `ollama pull qwen3-vl:8b`.
-
-If you don't install Ollama, Paideia's default engine (`codex-native`) reads page images through Codex CLI's built-in vision — the same vision your ChatGPT subscription already includes. No extra install, no second API key to manage.
-
-### Sandbox note
-
-If you run Paideia inside a sandboxed Codex session, local-engine and verification flows may trigger an approval prompt:
-
-- `qwen3-vl` talks to the local Ollama HTTP server at `http://localhost:11434`
-- live verification commands such as `codex exec --image ...` need to run outside the shell sandbox
-
-If Codex asks for approval in either case, click **Approve** so the plugin can reach the local model or run the verification command. Otherwise the OCR/test call can fail even when Ollama and Codex are installed correctly.
+The bundled MCP launcher checks Python imports and attempts to install its dependencies. If that fails, use a Python 3.10+ virtual environment and install `mcp pdf2image pillow pypdf pytesseract reportlab httpx` into the interpreter used as `python3` by `.mcp.json`. The first server startup may need network access. Local Qwen OCR needs access to `localhost:11434` under your Codex permissions.
 
 ### Install via the Codex desktop app (recommended)
 
-The desktop app is the smoothest reading surface for Paideia — `summary.md`, `patterns.md`, `coverage.md`, and your `derivations/*.md` notes render inline as the agent emits them (see the screenshot grid above), so there's no separate reader to keep open.
-
-1. Download the **Codex desktop app** for your OS (macOS / Windows / Linux) and sign in with your ChatGPT Plus / Pro / Business / Edu / Enterprise account. See [developers.openai.com/codex](https://developers.openai.com/codex) for the current install link.
-2. In a terminal, add the marketplace and install the plugin:
-
-   ```bash
-   codex plugin marketplace add https://github.com/OPTIMETA/PAIDEIA-codex.git
-   ```
-
-   ```bash
-   codex plugin add paideia@paideia-marketplace
-   ```
-
-3. Open a fresh Codex desktop conversation. The 16 `$paideia-` verbs are now available, and the bundled `paideia-mcp` stdio server auto-launches when you enter a course folder. Continue to **Per-course bootstrap** below.
-
-### Install via the Codex CLI
-
-If you prefer the terminal, install [Codex CLI](https://github.com/openai/codex) (`codex` on `PATH`) first, then run:
+Use the [Codex desktop app](https://developers.openai.com/codex/app) to read generated Markdown beside the conversation. Install the plugin from a terminal:
 
 ```bash
 codex plugin marketplace add https://github.com/OPTIMETA/PAIDEIA-codex.git
-```
-
-```bash
 codex plugin add paideia@paideia-marketplace
 ```
 
-> The full `https://...` URL is deliberate — `owner/repo` shorthand can make the CLI try SSH first, which fails if you don't have a GitHub SSH key registered. HTTPS always works.
+Open a fresh Codex task in your course folder after installation. The plugin supplies 16 `$paideia-…` skills and the `paideia-mcp` server configuration; Codex manages that server's lifecycle. If a session changes course folders, pass the new absolute `project_root` to MCP calls or start a fresh task in that course.
+
+### Install via the Codex CLI
+
+Run the same two marketplace commands above, then start `codex` inside the course folder. Type `$paideia-init-course` **in the Codex conversation**, not at your shell prompt. Pair the CLI with [Obsidian](#a-reading-tip-use-obsidian) for reading math.
 
 ### Per-course bootstrap
-
-Open Codex CLI inside the folder you want to use for this course, then type:
 
 ```
 $paideia-init-course
 ```
 
-This interactively:
-1. Checks Python / poppler / tesseract deps and offers to install missing ones (ollama is only probed when you pick the `qwen3-vl` engine in step 3).
-2. Asks for `COURSE_NAME`, `EXAM_DATE`, `EXAM_TYPE`, `WEAK_ZONES`.
-3. Asks which OCR engine you want as the default: `codex-native` (pages read via Codex CLI's bundled vision — no extra API key, no extra install), `qwen3-vl` (local Ollama, pulls the 6 GB model in the background), or `tesseract` (lightest, lowest fidelity).
-4. Creates the directory skeleton (`materials/`, `converted/`, `course-index/`, `quizzes/`, `mock/`, `twins/`, `chain/`, `derivations/`, `cheatsheet/`, `weakmap/`, `answers/converted/`, `errors/`).
-5. Writes `.course-meta` (carries `OCR_ENGINE`, read by `$paideia-grade`) and a project-level `AGENTS.md`.
-6. Runs `git init` if needed and merges the PAIDEIA-managed `.gitignore` rules so your prep is versioned from the first keystroke.
+The skill checks dependencies, asks for the course name, exam date, exam type, weak zones, and OCR engine (`codex-native` / `qwen3-vl` / `tesseract`). It then:
 
-You can always override the OCR engine for a single grade call: `$paideia-grade --ocr=codex-native path/to/answer.pdf`.
+1. Creates the course directories and seeds `errors/log.md`.
+2. Writes `.course-meta` with `COURSE_NAME`, `EXAM_DATE`, `EXAM_TYPE`, `USER_WEAK_ZONES`, and `OCR_ENGINE`.
+3. Creates `AGENTS.md` if absent, merges the managed `.gitignore` entries, and initializes Git if needed.
+
+Override answer OCR per call: `$paideia-grade --ocr=codex-native answers/answer.pdf`. The ingest skill also accepts `--ocr=<engine>`, `--only=<categories>`, and `--force`.
+
+### Existing course folders (migration note)
+
+The study artifacts share the PAIDEIA layout, but runtime settings need review. Keep the existing Markdown and error history, add Codex's `AGENTS.md`, and select one of this edition's engine names. Map Claude's `claude` to `codex-native` and `ollama` to `qwen3-vl`.
+
+This edition's bootstrap **does not offer the original en/ko picker or write `INTERFACE_LANG`**. Its bundled context and many skills request Korean prose. For another language, state that preference in the conversation and align `AGENTS.md`; adding `INTERFACE_LANG` alone does not implement a language switch. Re-running bootstrap rewrites `.course-meta`, leaves existing `AGENTS.md` intact, and preserves the existing error log.
 
 ---
 
@@ -273,7 +217,7 @@ my-course/
 │   ├── homework/                    # HW problem sets
 │   └── solutions/                   # HW solutions / worked examples
 │
-├── converted/                       # auto-generated markdown — do not edit
+├── converted/                       # generated Markdown — back up edits before re-ingest
 │   ├── lectures/                    # output of $paideia-ingest (vision-transcribed LaTeX)
 │   ├── textbook/
 │   ├── homework/
@@ -300,11 +244,8 @@ my-course/
 └── weakmap/                         # $paideia-weakmap — timestamped, append-only history
 ```
 
-**Only two directories are yours to edit by hand:**
-- `materials/` — drop source PDFs (or MDs) into the matching subfolder.
-- `answers/` — drop hand-written scan PDFs into the root; the OCR'd markdown shows up under `answers/converted/`.
 
-Everything else is produced by skills and should be treated as regenerable. Delete and rebuild whenever, `git log <dir>` to see your own progress over time, or point Obsidian at the whole folder as a vault.
+Drop source files in `materials/` and answer scans in `answers/`. All Markdown artifacts are editable; generation can overwrite derived files, so commit edits you want to preserve. Keep `errors/log.md` and the weakmap history: they record personal attempts that cannot be reconstructed from the source PDFs alone. Runtime context files and OCR engine names differ between editions; see the migration notes.
 
 ---
 
@@ -318,6 +259,8 @@ If you run Paideia from the Codex CLI rather than the Codex desktop app, this is
 - Works entirely offline, free, local. Consistent with Paideia's philosophy: your notes, your disk, your tool
 
 VS Code with a markdown-math extension works too. The terminal — even with a markdown preview — is bad for math; don't fight that.
+
+---
 
 ## And the lecture end: Alt
 
@@ -339,7 +282,7 @@ cp ~/hw/hw*_sol.pdf         ~/courses/my-course/materials/solutions/
 In Codex CLI:
 
 ```
-$paideia-ingest                     # every PDF → vision pipeline (paideia-mcp parallel fan-out, LaTeX-faithful)
+$paideia-ingest                     # render PDFs via MCP, then transcribe with the selected engine
 $paideia-analyze <weak-zone hints>  # build patterns + coverage + summary
 $paideia-hwmap hot                  # surface 🔥🔥 exam-primary zones
 ```
@@ -385,12 +328,14 @@ $paideia-weakmap                    # top 3 only. Do not learn new things.
 
 ---
 
-## Verbs (16 total)
+## Commands (16 total)
+
+This is the installed command inventory for this edition. It does not include the original's `doctor`, `reindex`, or `graph` commands.
 
 | Verb | Purpose |
 |------|---------|
 | `$paideia-init-course` | Bootstrap a fresh course folder (dep check, skeleton, metadata prompt, background `ollama pull`) |
-| `$paideia-ingest [--force]` | Every PDF in `materials/**` → markdown in `converted/**` via the `paideia-mcp` parallel vision pipeline |
+| `$paideia-ingest [--force]` | PDF/MD materials → `converted/**`; MCP renders PDFs, then Codex vision or local OCR transcribes them |
 | `$paideia-analyze [hints]` | Build `course-index/{summary,patterns,coverage}.md` |
 | `$paideia-phase` | Show the current artifact-derived phase snapshot (`setup` → `cool`) |
 | `$paideia-hwmap hot\|<§>` | Surface 🔥🔥 Exam-primary sections ranked by HW density |
@@ -412,82 +357,52 @@ $paideia-weakmap                    # top 3 only. Do not learn new things.
 
 ### The MCP server: `paideia-mcp`
 
-The Claude edition drove parallel vision ingest by spawning one `general-purpose` subagent per PDF. Codex subagents exist but are heavier per-task, and Codex's `view_image` tool requires explicit user consent for each image — neither is a good fit for a 200-page textbook ingest. The Codex edition therefore moves the heavy work into a **bundled stdio MCP server**, `paideia-mcp`, that Codex spawns automatically the first time a skill calls into it. It exposes four tools:
+The plugin bundles four stdio MCP tools. Each accepts an explicit `project_root`; otherwise it uses the server's working directory.
 
-| Tool | What it does |
-|------|--------------|
-| `ingest_pdfs` | Render every `materials/**/*.pdf` to PNGs, resize to ≤1800 px on the long edge, then either (a) hand the page paths back to the calling skill when `engine=codex-native` (Codex reads them with its bundled vision), or (b) OCR in-process and write LaTeX markdown to `converted/**` when `engine=qwen3-vl` / `tesseract`. Deterministic `ProcessPoolExecutor` fan-out, resumable per PDF. |
-| `grade_pdf` | Same dual behavior for a single hand-written answer PDF: `codex-native` rasterizes + returns page paths; `qwen3-vl` / `tesseract` run OCR in-process and write `answers/converted/<stem>.md` with a confidence tier. |
-| `build_course_index` | Read `converted/**`, write a machine-generated baseline `course-index/{summary,patterns,coverage}.md`, and return the inventory the analyze skill can refine. |
-| `course_phase` | Artifact-derived phase (setup → diag → drill → mock → cram → cool). Returns `{phase, days_until_exam, top_miss_pattern}`. Used by `$paideia-phase` and any skill that needs to know where the user is in the cycle. |
+| Tool | Responsibility |
+|------|----------------|
+| `ingest_pdfs` | Discover materials, copy Markdown, render PDFs, and run in-process OCR or return a page manifest. |
+| `grade_pdf` | Render/OCR an answer PDF and return transcription data. The calling Codex skill performs strategy grading and error logging. |
+| `build_course_index` | Write a deterministic draft index from the available documents. Codex refines course-specific patterns and coverage. |
+| `course_phase` | Return phase, days until the exam, and top-miss pattern from course artifacts. |
 
-Skills stay thin (~40–80 lines of orchestration): parse arguments, call the right MCP tool, summarize the result for the user. Raw page images never enter Codex's context.
+`codex-native` returns `mode: "rasterize-only"`: **Codex must open the returned page images and write the transcription**. The MCP does not perform native-vision recognition or model-based grading itself. `grade_pdf` archives the source scan during preparation, including the native path, before Codex completes the strategy grade. `qwen3-vl` and `tesseract` return `mode: "ocr-complete"` after writing Markdown locally.
 
-### Ingest pipeline: vision for every PDF
+### Ingest pipeline: render every PDF, then transcribe
 
-`$paideia-ingest` routes every PDF in `materials/**` through the same vision pipeline. `pdfplumber` was tried first as a fast path for prose-heavy material (textbook, HW) and proved unreliable: even pages that *look* like plain prose silently word-salad as soon as they mix equations, figures, multi-column layouts, or margin notes. Rather than maintain a per-category heuristic with fallbacks we'd have to retune per course, we route everything uniformly.
+PDFs are rendered into page images before transcription. Markdown sources are copied with a provenance header. Ingest writes the converted material; analyze then creates `summary.md`, `patterns.md`, and `coverage.md` from those sources.
 
-| Source | Method |
-|---|---|
-| `materials/**/*.pdf` | Vision pipeline (MCP parallel fan-out, LaTeX-faithful) |
-| `materials/**/*.md` | Copy-through with provenance header |
-
-How the pipeline runs: every page is rendered to PNG at `dpi=160`; every PNG is resized to ≤1800 px on the long edge before any OCR call fires; then `paideia-mcp.ingest_pdfs` dispatches to the selected engine, with one worker process per PDF and an `ThreadPoolExecutor` inside each worker for I/O-bound OCR calls. Output like `$$\hat H = -\frac{\hbar^2}{2m}\partial_x^2 + V(x)$$` instead of `ℏ ∂ p2 ℏ 2 ∂ 2 p ̂`.
+Ingest uses 160 dpi and caps the long edge at 1800 px. For local OCR, a process pool distributes PDFs; Qwen's in-process OCR also uses a small thread pool for pages. Native vision is handled by the skill, sequentially within a PDF. Already-converted targets are skipped unless `--force` is requested.
 
 ### Hand-writing OCR: three engines, you pick
 
-The user does not type math into chat. They solve on paper, scan to PDF, drop the PDF into `answers/`, and run `$paideia-grade`. The plugin converts the scan to markdown via one of three engines, chosen per course (via `OCR_ENGINE` in `.course-meta`) and overridable per call (via `$paideia-grade --ocr=<engine>`):
+Solve on paper, scan to `answers/`, then run `$paideia-grade`. Engine choice is per course and can be overridden with `--ocr=<engine>`.
 
 | Engine | Default? | How it runs | When to pick it |
-|---|---|---|---|
-| `codex-native` | **Yes** | `paideia-mcp.grade_pdf` renders each page to PNG under `answers/.paideia-cache/<stem>/`, then hands the page paths back so Codex CLI can read them with its bundled vision — the same vision your ChatGPT Plus/Pro/Business subscription already includes. No `OPENAI_API_KEY` and no separate API billing. | The out-of-the-box path. Strong on Korean + LaTeX + hand-written math; no local model-load stall; no double-billing. |
-| `qwen3-vl` | opt-in | Local Qwen3-VL 8B via Ollama's HTTP API, with automatic tesseract fallback. | You want the page images to never leave the machine. Requires `ollama pull qwen3-vl:8b` once (~6 GB). |
-| `tesseract` | opt-in | `pytesseract` with whichever of `eng` / `kor` traineddata is installed (auto-detected; falls back to the single available language if the other is missing). | Fastest and lightest; acceptable for typed scans; poor on hand-writing. |
+|--------|----------|-------------|-----------------|
+| `codex-native` | Yes | Render pages, then read them through the agent's vision path. | A working vision-capable model/tool configuration. |
+| `qwen3-vl` | Optional | Local Ollama `qwen3-vl:8b`, with Tesseract fallback. | Keep the answer's OCR page images local. |
+| `tesseract` | Optional | Local `pytesseract`. | Typed scans; handwriting and math need careful review. |
 
-Each engine writes `answers/converted/<stem>.md` with a `<!-- source: ... -->` / `<!-- tier: ... -->` header comment so `$paideia-grade` can caveat low-confidence OCR.
-
-Default choice (`codex-native`) is deliberately the path of least friction and least spend: if you're running Codex CLI you're already paying for the ChatGPT subscription that includes vision, so the default engine neither installs extra software nor charges you twice. The `qwen3-vl` engine exists for users who want a hard privacy boundary on the page images themselves, and `tesseract` exists as a reliable floor when nothing else is available.
+Default answer OCR is `codex-native`: page images are read through the runner's vision path. For local answer OCR, install Ollama and `qwen3-vl:8b`, then explicitly select `OCR_ENGINE: qwen3-vl` in `.course-meta` or pass `--ocr=qwen3-vl` to grade. Downloading the model alone does not change the engine. `tesseract` is the other local option. Local OCR keeps that transcription step local; subsequent analysis and grading still use the configured model and may send it the transcribed text.
 
 ### Strategy-based grading, not line-by-line
 
-OCR noise in hand-written math makes strict algebraic grading useless — a single misread `∫` vs `∑` would cascade. More importantly, **pattern recognition is the actual exam bottleneck**, not arithmetic. The grader therefore checks three things on each problem:
+The grading instructions check (1) the selected pattern `Pk`, (2) the variables, substitution, basis, or contour, and (3) the final expression's form. Review the transcription and grade when OCR is uncertain. Errors are appended to `errors/log.md` using `problem_id`, `pattern`, `error_type`, `summary`, `source`, and `date`. Error types include `pattern-missed`, `wrong-variable`, `wrong-end-form`, `algebraic`, `sign`, and `definition`.
 
-1. **Pattern** — did the student pick the right Pk from `course-index/patterns.md`?
-2. **Variables** — did they identify the right substitution / basis / index / contour?
-3. **End-form** — does their final expression have the right shape (dimensions, asymptotics, structure)?
-
-Errors get logged as YAML to `errors/log.md` with a typed classification (`pattern-missed | wrong-variable | wrong-end-form | algebraic | sign | definition`). This log is the seed for `$paideia-weakmap` and the *only* input to `$paideia-cheatsheet --pdf`.
-
-The schema is canonical across every skill that appends here — `$paideia-grade`, `$paideia-blind`, and any future drill — with exactly the keys `problem_id · pattern · error_type · summary · source · date`. The single source of truth is `plugins/paideia/skills/paideia-grade/SKILL.md` §6; downstream readers (`paideia-mcp.course_phase`, `$paideia-phase`, `$paideia-weakmap`) pattern-match on `pattern:` and `source:`, and the `source:` field is what lets phase detection distinguish a mock-grade entry from a homework-grade entry. Any schema drift silently hides entries from the weakmap, so new drills must use the canonical keys.
-
-After `$paideia-grade` succeeds, the original hand-written PDF is moved from `answers/<stem>.pdf` into `answers/_archive/<stem>_<ts>.pdf` so the next invocation's "most recently modified in `answers/`" resolver stops re-picking the same stale file when you upload a newer scan. The converted markdown stays under `answers/converted/` and is version-controlled; only the bulky scan itself is archived (and gitignored via `answers/**/*.pdf`).
+The cheatsheet uses the course index and error history together: patterns/formulas provide reference material, while your errors drive the traps and corrections. `--pdf` also requests a printable `cheatsheet/final.pdf`; inspect the rendered equations before printing.
 
 ### Patterns extracted from *your* solutions
 
-`$paideia-analyze` doesn't ship a generic "calculus moves" list. It reads your course's actual solution manual, extracts recurring solution patterns, and labels them P1, P2, ... with worked instances that cite your own `converted/solutions/` files. The patterns are *your course's idioms*, not a textbook's. For a complex analysis course, P3 might be "closed contour + Jordan's lemma + residue at essential singularity." For a linear systems course, P3 might be "partial fractions + inverse Laplace with complex poles." Every discipline has its own moves; only the course itself reveals them.
+`$paideia-analyze` reads the course's solutions and worked examples, labels recurring moves `P1`, `P2`, …, and cites the source files under `converted/`. The resulting pattern cards and HW coverage are the context for later drills. The model-generated index should be checked against your assignments.
 
 ### Append-only history
 
-`weakmap/` never overwrites. Every `$paideia-weakmap` invocation produces `weakmap/weakmap_<ISO-timestamp>.md`. You can `git log weakmap/` and see exactly which weaknesses collapsed first, which ones persisted, which new ones emerged after the diagnostic mock. This is "`git diff` your own understanding over time" in practice.
+Commands append attempts to `errors/log.md` and save dated reports under `weakmap/`. Keep that history when re-ingesting or migrating. Generated problem sets have separate answer/solution siblings; solve the problems before opening them.
 
 ### Phase detection
 
-Codex doesn't expose a persistent statusline slot the way Claude Code does, so the neon one-liner that the Claude edition paints there is not ported. The underlying phase detection, however, is exposed as its own verb:
-
-```
-$paideia-phase
-```
-
-Prints `setup · diag · drill · mock · cram · cool` along with `D-<days-to-exam>` and the top-miss pattern from the latest weakmap. The phase is **activity-based**: creating an empty `patterns.md` or dropping a seeded `mock/<name>.md` does not advance it. The student must have actually graded something — an `errors/log.md` entry with a canonical `pattern:` key — before the phase moves past `diag`.
-
-- `setup` — `course-index/patterns.md` doesn't exist yet → run `$paideia-ingest` + `$paideia-analyze`
-- `diag` — patterns exist, but `errors/log.md` has no graded entries yet → run `$paideia-quiz all 20` and grade it
-- `drill` — at least one graded entry lives in `errors/log.md` → cycle `$paideia-blind` · `$paideia-twin` · `$paideia-quiz weakmap`
-- `mock` — a mock-sourced entry (any `errors/log.md` row whose `source:` contains `mock`) has been graded → compress with `$paideia-cheatsheet --pdf`
-- `cram` — `cheatsheet/final.{md,pdf}` exists → taper, re-read the weakmap, stop learning new things
-- `cool` — `D-0` overrides everything (exam is today)
-
-Why activity-based rather than file-existence-based: an artifact that was never acted on is not the same signal as one the student produced. Treating `quizzes/*.md` (a problem set) as evidence of drilling conflates "a file exists" with "the student has actually drilled on it." Requiring a graded entry in `errors/log.md` ensures the phase reflects what the user did, not what the filesystem declares.
+`$paideia-phase` calls `course_phase`; this package installs no PAIDEIA statusline or session-start hook. The detector returns `setup` when `patterns.md` is absent, `diag` when it exists without a recognized `pattern: Pk` error entry, and `drill` when such an entry exists. A `source:` containing `mock` selects `mock`; `cheatsheet/final.md` or `.pdf` selects `cram`; exam day (`D-0`) selects `cool`. An empty `patterns.md` still satisfies the file-existence check, so the phase is a filesystem heuristic, not evidence of learning.
 
 ---
 
@@ -502,7 +417,6 @@ PAIDEIA-codex/
 └── plugins/paideia/
     ├── .codex-plugin/plugin.json        # plugin manifest (name, version, author)
     ├── .mcp.json                        # spawn config for paideia-mcp
-    ├── README.md                        # quick-reference card
     ├── paideia-mcp/                     # bundled stdio MCP server
     │   ├── pyproject.toml
     │   ├── README.md
@@ -522,6 +436,7 @@ PAIDEIA-codex/
         │   └── assets/AGENTS.md.template
         ├── paideia-ingest/SKILL.md
         ├── paideia-grade/SKILL.md
+        ├── paideia-phase/SKILL.md
         ├── paideia-analyze/SKILL.md
         ├── paideia-hwmap/SKILL.md
         ├── paideia-pattern/SKILL.md
@@ -540,51 +455,41 @@ PAIDEIA-codex/
 
 ## Design convictions
 
-1. **The terminal is bad for math.** Codex produces markdown files; you read them (ideally in Obsidian).
-2. **Typing solutions is slow and error-prone.** You solve on paper, scan, and the plugin OCRs (locally, or via Codex CLI's bundled vision — no extra billing for ChatGPT subscribers).
-3. **OCR noise is inevitable.** So grading is strategy-based (pattern / variables / end-form), not line-by-line algebra. This is what the actual exam grader is evaluating anyway.
-4. **Patterns must be extracted from *your* course's solutions** — not from a generic list. Every discipline has its own idioms; only the course itself reveals them.
-5. **Your errors are the most valuable study signal** — more than the textbook, more than the lectures. The cheatsheet is generated from `errors/log.md`, not from the syllabus.
-6. **HW density tells you the exam.** Your time is finite; spend it where the points are.
-7. **Everything is yours to edit.** Patterns, weakmaps, cheatsheets, the error log — all plain markdown/YAML in your own git history. Disagree with `P3`? Rewrite it, and the next drill uses your edit. Fork a course folder from last semester into a new one and edit deltas. The plugin is a scaffold; the study graph is yours.
-8. **Heavy pipelines live in MCP, not in skill bodies.** The parallel vision ingest, multi-engine OCR dispatch, pattern extraction, and phase detection are all implemented in `paideia-mcp`. Skills just orchestrate. This keeps skill bodies short enough to audit by hand and keeps Codex's context free of raw page images.
+1. **Read the math as Markdown.** Open the course in Obsidian or a Markdown-capable desktop view.
+2. **Solve on paper.** Scan the answer and choose the OCR path that fits your setup.
+3. **Review strategy and transcription.** Pattern, variables, and final form guide grading; OCR and model judgments can need correction.
+4. **Extract patterns from your course.** Cite the supplied solutions and worked examples.
+5. **Learn from recorded errors.** Let them shape practice and the cheatsheet's traps.
+6. **Use homework to prioritize.** Treat its density as a study signal and check it against the announced exam scope.
+7. **Keep the study graph yours.** Editable Markdown, preserved error history, and version control across sessions.
 
 ---
 
 ## FAQ
 
 **Does this work for non-math courses?**
-It's built around problem-pattern extraction, so it shines in quantitative disciplines: math, physics, EE, CS-theory, ML-theory, statistics, engineering. For history or literature it would still ingest and produce summaries, but the drill skills assume problems have solution patterns.
+Ingest and summarization can help, but the practice workflow assumes recurring problem-solving patterns. It is designed for math, physics, engineering, and related quantitative courses.
+
+**How does the next session remember my work?**
+The course context, index, and error history are files. Later commands read them again; your study record is not dependent on chat history alone.
+
+**Can I edit the patterns or cheatsheet?**
+Yes. Save changes in any Markdown editor and commit the files you want to preserve before regenerating them. Keep the error log and weakmap history.
 
 **Korean and English mixed materials?**
-Yes. Ingestion and OCR are configured for `eng+kor`. Patterns and grading responses honor the language mix of your source materials.
+Codex can read both. This port currently ships Korean-oriented skill/context instructions and no en/ko bootstrap picker. Ask for your preferred language and align `AGENTS.md`. Tesseract uses whichever `eng`/`kor` traineddata is installed.
 
-**How is this different from just asking ChatGPT / Claude / Gemini to help me study?**
-Per-course persistence. An LLM chat has no memory of the pattern you missed on HW2 two weeks ago, no ranking of which sections your professor actually emphasizes, no notion of "your typical error type." Paideia writes all of that to markdown files on your disk. A `$paideia-weakmap` today is informed by every `$paideia-grade` since the course began, because `errors/log.md` is append-only. A generic chat session, however smart, is a blank slate every time you open it.
+**Do I need Ollama, and is the whole workflow offline?**
+Ollama is optional. The default uses the runtime’s vision path. Local OCR keeps image transcription on your machine, but analysis and grading still use your configured model. See the OCR engine table above for the required setup.
 
-**Can I edit the patterns / cheatsheet / weakmap if I disagree?**
-Yes. That's the whole point of keeping them as plain markdown. If `P3` feels wrong, open `course-index/patterns.md` and rewrite it — subsequent drills will use your edit. If the cheatsheet emphasizes the wrong thing, trim it. The plugin is a scaffold; the study graph is yours to shape.
+**Can I move a course between PAIDEIA editions?**
+The Markdown study artifacts share a layout. Review the destination's context file and engine names first: `CLAUDE.md` / `AGENTS.md` / `PAIDEIA.md`, and `claude` / `codex-native` / `vision` or `ollama` / `qwen3-vl`. Preserve your existing metadata and personal history; the versions do not have identical configuration or command sets.
 
-**Do I need Ollama / Qwen3-VL to use this?**
-No. The default engine is `codex-native`, which reads page images via Codex CLI's built-in vision — the same vision your ChatGPT Plus/Pro/Business/Edu/Enterprise subscription already includes. No separate API key, no additional install. Ollama + `qwen3-vl:8b` is an opt-in path for users who want the page images to stay on their machine entirely. `tesseract` is a third option for minimal-install setups or typed scans.
+**Does model-generated grading need review?**
+Yes. The source scan, transcription, referenced patterns, and YAML log let you inspect and correct an assessment. The status indicator is a file-based workflow cue, not an independent measurement of understanding.
 
-**Do I need a separate `OPENAI_API_KEY`?**
-No. Codex CLI authenticates via "Sign in with ChatGPT" and bundles vision as part of the subscription. Paideia's default engine just hands page images to Codex — it never makes a separate paid API call on your behalf. (The old `openai-vision` engine, which did call the Responses API with a second key, has been removed to avoid double-billing Codex users.)
-
-**What if my machine can't run `qwen3-vl:8b` even though I picked Qwen3-VL?**
-The MCP server's OCR dispatcher automatically falls back to tesseract on any Ollama failure. You can also just set `OCR_ENGINE: codex-native` in `.course-meta` (or pass `--ocr=codex-native`) and skip Ollama entirely.
-
-**Can I reuse the plugin across multiple courses?**
-Yes — each course lives in its own folder with its own `.course-meta`, `course-index/`, `errors/log.md`, and `weakmap/`. Nothing is shared or polluted across courses. Open Codex CLI inside whichever course folder you're working on.
-
-**Can I trust an LLM to grade my work?**
-Grading is strategy-based (pattern match, not algebra), the grader cites the pattern from `course-index/patterns.md`, and every grade writes a YAML entry you can audit in `errors/log.md`. If a grade is wrong, fix the YAML entry — the next `$paideia-weakmap` reflects the correction.
-
-**Is my data private?**
-Your PDFs, markdown, errors, and weakmaps all live in your local course folder — nothing is uploaded to any third-party service by the plugin itself. The only network traffic depends on the OCR engine you pick: with `codex-native` (default), page images are read by Codex CLI's own vision (so they travel over the same secure channel Codex already uses for every other turn — nothing new); with `qwen3-vl`, nothing leaves the machine after the one-time model download; with `tesseract`, nothing leaves the machine ever.
-
-**Can I share artifacts with the Claude Code edition?**
-Yes. The on-disk layout is byte-compatible. A course folder initialized by the Claude edition opens cleanly in the Codex edition (you just need an `AGENTS.md` alongside the existing `CLAUDE.md`, which `$paideia-init-course` will offer to generate), and vice versa. Errors logged by one edition feed the weakmap of the other without conversion.
+**Does PAIDEIA require a separate `OPENAI_API_KEY`?**
+The default native OCR path does not call a separate OCR API. It uses the current Codex session's authentication, usage allowance, and billing. Local OCR does not remove the model calls used for analysis and grading.
 
 ---
 
